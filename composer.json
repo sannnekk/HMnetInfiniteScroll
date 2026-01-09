@@ -1,0 +1,27 @@
+{
+    "name": "h-mnet-infinite-scroll/h-mnet-infinite-scroll",
+    "description": "h-mnet-infinite-scroll/h-mnet-infinite-scroll",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.7.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "HMnet\\InfiniteScroll\\HMnetInfiniteScroll",
+        "label": {
+            "de-DE": "Skeleton plugin",
+            "en-GB": "Skeleton plugin"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "HMnet\\InfiniteScroll\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HMnet\\InfiniteScroll\\Tests\\": "tests/"
+        }
+    }
+}
