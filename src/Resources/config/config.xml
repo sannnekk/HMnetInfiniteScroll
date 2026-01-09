@@ -4,12 +4,20 @@
         xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
 
     <card>
-        <title>Minimal configuration</title>
+        <title>Infinite Scroll</title>
 
-        <input-field type="text">
-            <name>textField</name>
-            <label>Test field with default value</label>
-            <defaultValue>test</defaultValue>
+        <input-field type="bool">
+            <name>enabled</name>
+            <label>Enable infinite scroll</label>
+            <helpText>Disable to fall back to the standard pagination.</helpText>
+            <defaultValue>true</defaultValue>
+        </input-field>
+
+        <input-field type="int">
+            <name>preloadOffset</name>
+            <label>Preload offset (px)</label>
+            <helpText>Number of pixels before the end of the list where the next page should start loading.</helpText>
+            <defaultValue>400</defaultValue>
         </input-field>
     </card>
 

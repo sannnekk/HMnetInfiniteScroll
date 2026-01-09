@@ -10,8 +10,13 @@
     "extra": {
         "shopware-plugin-class": "HMnet\\InfiniteScroll\\HMnetInfiniteScroll",
         "label": {
-            "de-DE": "Skeleton plugin",
-            "en-GB": "Skeleton plugin"
+            "de-DE": "HMnet: Unendliches Scrollen",
+            "en-GB": "HMnet: Infinite Scroll"
+        },
+        "plugin-icon": "src/Resources/public/static/img/icon.png",
+        "manufacturerLink": {
+            "de-DE": "https://hmnet.de/",
+            "en-GB": "https://hmnet.de/"
         }
     },
     "autoload": {
