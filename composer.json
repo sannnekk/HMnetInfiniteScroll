@@ -1,6 +1,12 @@
 {
     "name": "h-mnet-infinite-scroll/h-mnet-infinite-scroll",
-    "description": "h-mnet-infinite-scroll/h-mnet-infinite-scroll",
+    "description": "Replaces classic pagination in product listings with infinite scroll",
+    "authors": [
+        {
+            "name": "HMnet GbR",
+            "homepage": "https://hmnet.de/"
+        }
+    ],
     "type": "shopware-platform-plugin",
     "version": "1.0.0",
     "license": "MIT",
@@ -13,10 +19,18 @@
             "de-DE": "HMnet: Unendliches Scrollen",
             "en-GB": "HMnet: Infinite Scroll"
         },
+        "description": {
+            "de-DE": "Ersetzt die klassische Seitennavigation in Produktlisten durch endloses Scrollen: Weitere Produkte werden automatisch nachgeladen, sobald der Kunde das Seitenende erreicht.",
+            "en-GB": "Replaces classic pagination in product listings with infinite scroll: additional products are loaded automatically as the customer reaches the end of the page."
+        },
         "plugin-icon": "src/Resources/public/static/img/icon.png",
         "manufacturerLink": {
             "de-DE": "https://hmnet.de/",
             "en-GB": "https://hmnet.de/"
+        },
+        "supportLink": {
+            "de-DE": "https://www.hmnet.de/kontakt/anfrage/",
+            "en-GB": "https://www.hmnet.de/kontakt/anfrage/"
         }
     },
     "autoload": {
