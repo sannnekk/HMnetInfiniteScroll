@@ -5,18 +5,23 @@
 
     <card>
         <title>Infinite Scroll</title>
+        <title lang="de-DE">Unendliches Scrollen</title>
 
         <input-field type="bool">
             <name>enabled</name>
             <label>Enable infinite scroll</label>
+            <label lang="de-DE">Unendliches Scrollen aktivieren</label>
             <helpText>Disable to fall back to the standard pagination.</helpText>
+            <helpText lang="de-DE">Deaktivieren, um zur klassischen Seitennavigation zurückzukehren.</helpText>
             <defaultValue>true</defaultValue>
         </input-field>
 
         <input-field type="int">
             <name>preloadOffset</name>
             <label>Preload offset (px)</label>
+            <label lang="de-DE">Vorlade-Abstand (px)</label>
             <helpText>Number of pixels before the end of the list where the next page should start loading.</helpText>
+            <helpText lang="de-DE">Anzahl der Pixel vor dem Ende der Liste, ab der die nächste Seite geladen werden soll.</helpText>
             <defaultValue>400</defaultValue>
         </input-field>
     </card>
